@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "michael ocarol",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelocarol/customer-portal-e2e.git"
+  },
+
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.0.0",
