@@ -1,0 +1,23 @@
+{
+	"groups": {
+		"groupName": "CORE SCENARIO GROUPS[1]",
+		"groupDesc": "CORE SCENARIO GROUPS DESCRIPTION[1]"
+	},
+	"contacts": {
+		"mobileNum": "639325981139",
+		"fName": "Dess",
+		"lName": "Cubar"
+	},
+	"originAndMsg": {
+		"smsSender": "CORE TEST",
+		"smsMsg": "SAMPLE TEST AUTOMATION MESSAGES!"
+	},
+	"subAccount": [{
+		"subAcctName": "PRAKSMOL-4yY8D_hq",
+		"subAcctIndex": 3
+	}],
+	"campaign": {
+		"campaignName": "AUTO TEST CAMPAIGN"
+	},
+	"emptyListMsg": "No Data"
+}

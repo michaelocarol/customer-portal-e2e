@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git@github.com:michaelocarol/customer-portal-e2e.git"
   },
-
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.0.0",
     "gulp-webdriver": "^2.0.3",
     "selenium-standalone": "^6.4.1",
     "wdio-mocha-framework": "^0.5.10",
+    "wdio-phantomjs-service": "^0.2.2",
     "wdio-spec-reporter": "^0.1.0",
     "webdriverio": "^4.8.0"
   },
