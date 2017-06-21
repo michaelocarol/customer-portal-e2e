@@ -42,6 +42,12 @@ var loginPage = Object.create(page, {
 		}
 	},
 
+	selectLoginBtn: {
+		value: function () {
+			this.loginBtn.click();
+		}
+	},
+
 	open: {
 		value: function() {
 			page.open.call(this, '/');

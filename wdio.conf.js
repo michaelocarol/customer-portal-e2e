@@ -7,7 +7,7 @@ exports.config = {
 	suites: {
 		login: [
 			'./test/spec/login/login.spec.js',
-			'./test/spec/customer-portal-core-scenario.spec.js'
+			'./test/spec/contacts/contacts.spec.js'
 		],
 	},
 

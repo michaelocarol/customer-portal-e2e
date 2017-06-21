@@ -18,7 +18,6 @@ var contacts = Object.create(page, {
 
 	selectContactGrpName: {
 		get: function () {
-			// return $('.el-select-dropdown__wrap .el-select-dropdown__item:nth-child(1)');
 			return $('.el-select-dropdown.is-multiple .el-scrollbar .el-select-dropdown__wrap .el-scrollbar__view.el-select-dropdown__list');
 		}
 	},

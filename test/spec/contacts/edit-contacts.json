@@ -1,0 +1,14 @@
+{	
+	"contacts": [{
+		"mobileNum": "639321234509",
+		"groupName": "",
+		"fName": "David",
+		"lName": "Beckham"
+	}, {
+		"mobileNum": "639981234589",
+		"groupName": "",
+		"fName": "Luis",
+		"lName": "Figo"
+	}],
+	"emptyListMsg": "No Data"
+}

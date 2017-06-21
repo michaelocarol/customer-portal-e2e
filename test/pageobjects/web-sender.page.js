@@ -44,7 +44,7 @@ var webSender = Object.create(page, {
 	//ORIGIN AND MESSAGE SECTION PAGE OBJECTS
 	smsCampFrom: {
 		get: function () {
-			return $('.step-group.active .el-form-item.test.is-required .el-input .el-input__inner');
+			return $('.el-form-item__content:nth-child(2) .el-input .el-input__inner');
 		}
 	},
 
@@ -118,7 +118,7 @@ var webSender = Object.create(page, {
 
 	smsCampProcCampBtn: {
 		get: function () {
-			return $('.right-align .el-button--primary');
+			return $('.dialog-footer .el-button--primary');
 		}
 	},
 
