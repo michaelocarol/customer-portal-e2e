@@ -34,7 +34,9 @@ describe( 'End-To-End test for Contacts', function () {
 		contactsPage.contactfName.setValue(contactJson.contacts[contactIndex].fName);
 		contactsPage.contactlName.setValue(contactJson.contacts[contactIndex].lName);
 		contactsPage.saveContactBtn.click();
-		common.waitErrorMsg( true );
+		common.waitErrorMsg(false)
+		expect(common.errorMsg.getText()).to.contain('Successfully created new Contact!');
+		common.waitErrorMsg(true);
 		common.logoutBtn();
 	});
 
@@ -90,6 +92,8 @@ describe( 'End-To-End test for Contacts', function () {
 			contactsPage.contactfName.setValue(editContactJson.contacts[contactIndex].fName);
 			contactsPage.contactlName.setValue(editContactJson.contacts[contactIndex].lName);
 			contactsPage.saveContactBtn.click();
+			common.waitErrorMsg(false)
+			expect(common.errorMsg.getText()).to.contain('Successfully updated Contact!');
 			common.waitErrorMsg( true );
 			common.logoutBtn();
 		});
@@ -150,6 +154,8 @@ describe( 'End-To-End test for Contacts', function () {
 			common.delContactGrp.click();
 			expect(common.confirmModalMsg.getText('p')).to.contain('This will permanently delete contact: ' + editContactJson.contacts[contactIndex].mobileNum + '. Continue?');
 			common.confirmModalDelBtn();
+			common.waitErrorMsg(false)
+			expect(common.errorMsg.getText()).to.contain('Contact successfully deleted');
 			common.waitErrorMsg(true);
 			common.logoutBtn();
 		});		
